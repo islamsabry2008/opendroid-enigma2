@@ -73,6 +73,5 @@ def resolveAlternate(ref):
 			nref = getBestPlayableServiceReference(ref, eServiceReference(), True)
 	return nref
 
-
 def hdmiInServiceRef():
 	return eServiceReference(eServiceReference.idServiceHDMIIn, eServiceReference.noFlags, eServiceReferenceDVB.dTv)
