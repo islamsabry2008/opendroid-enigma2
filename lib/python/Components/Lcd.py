@@ -486,7 +486,7 @@ def InitLcd():
 		max_limit = 10
 		default_bright = 10
 
-		if MACHINEBUILD in ('novatwin', 'novacombo', 'spycat'):
+		if MACHINEBUILD in ('novatwin', 'novacombo', 'zgemmas2s', 'zgemmash1', 'zgemmash2', 'zgemmass', 'zgemmahs', 'zgemmah2s', 'zgemmah2h', 'spycat'):
 			max_limit = 4
 			default_bright = 4
 		elif MACHINEBUILD not in ("spycat4kmini", "osmega"):
