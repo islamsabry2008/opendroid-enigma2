@@ -706,6 +706,8 @@ if DISPLAYBRAND == "Atto.TV":
 	defaultLocale = "pt_BR"
 elif DISPLAYBRAND == "Beyonwiz":
 	defaultLocale = "en_AU"
+elif DISPLAYBRAND == "Zgemma":
+	defaultLocale = "en_US"
 else:
 	defaultLocale = "it_IT"
 config.misc.locale = ConfigText(default=defaultLocale)
